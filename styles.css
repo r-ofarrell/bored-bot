@@ -1,0 +1,119 @@
+:root {
+    --main-pink: #ff0a54;
+    --secondary-blue: #3a86ff;
+}
+
+body {
+    margin: 0;
+    background-color: #24283b;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Yellowtail", sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 2rem;
+    text-shadow:
+      0 0 4px #fff,
+      2px 2px 7px var(--main-pink),
+      -2px -2px 7px var(--main-pink),
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px var(--main-pink),
+      0 0 80px var(--main-pink),
+      0 0 90px var(--main-pink),
+      0 0 100px var(--main-pink),
+      0 0 150px var(--main-pink);
+}
+
+p {
+    font-family: "Yellowtail", sans-serif;
+    font-size: 2em;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 2rem;
+    text-shadow:
+      0 0 4px #fff,
+      2px 2px 7px var(--main-pink),
+      -2px -2px 7px var(--main-pink),
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px var(--main-pink),
+      0 0 80px var(--main-pink),
+      0 0 90px var(--main-pink),
+      0 0 100px var(--main-pink),
+      0 0 150px var(--main-pink);
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    margin: 3em 0;
+}
+
+#btn-activity {
+    font-family: "Yellowtail", sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow:
+      0 0 4px #fff,
+      2px 2px 7px var(--secondary-blue),
+      -2px -2px 7px var(--secondary-blue),
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px var(--secondary-blue),
+      0 0 80px var(--secondary-blue),
+      0 0 90px var(--secondary-blue),
+      0 0 100px var(--secondary-blue),
+      0 0 150px var(--secondary-blue);
+    border: 3px solid #fff;
+    background-color: #24283b;
+    border-radius: 5px;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem var(--secondary-blue),
+              0 0 0.8rem var(--secondary-blue),
+              0 0 2.8rem var(--secondary-blue),
+              inset 0 0 1.3rem var(--secondary-blue);
+    padding: .5em 1em;
+    margin-top: 2em;
+    transition: box-shadow .3s;
+}
+
+#btn-activity:hover,
+#btn-activity:focus {
+    cursor: pointer;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 3rem var(--secondary-blue),
+              0 0 1.8rem var(--secondary-blue),
+              0 0 2.8rem var(--secondary-blue),
+              inset 0 0 1.3rem var(--secondary-blue);
+
+}
+
+#activities-list {
+}
+
+ul {
+    padding: 0;
+}
+
+.activity {
+    list-style: none;
+}
