@@ -2,7 +2,6 @@
     --main-pink: #ff0a54;
     --secondary-blue: #3a86ff;
     --secondary-purple:#bc13fe;
-
 }
 
 body {
@@ -58,13 +57,12 @@ p {
 }
 
 #intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* height: 40vh; */
-    margin: 3em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 3em 0;
 }
 
 #btns {
