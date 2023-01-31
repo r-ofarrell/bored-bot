@@ -108,11 +108,12 @@ p {
 #btn-reset:focus {
     cursor: pointer;
     box-shadow: 0 0 .2rem #fff,
-              0 0 .2rem #fff,
-              0 0 3rem var(--secondary-blue),
-              0 0 1.8rem var(--secondary-blue),
-              0 0 2.8rem var(--secondary-blue),
-              inset 0 0 1.3rem var(--secondary-blue);
+                0 0 .2rem #fff,
+                0 0 1.8rem var(--secondary-blue),
+                0 0 2.8rem var(--secondary-blue),
+                0 0 3rem var(--secondary-blue),
+                0 0 3.8rem var(--secondary-blue),
+                inset 0 0 1.3rem var(--secondary-blue);
 }
 
 #activities-list {
