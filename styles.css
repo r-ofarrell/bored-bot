@@ -1,6 +1,8 @@
 :root {
     --main-pink: #ff0a54;
     --secondary-blue: #3a86ff;
+    --secondary-purple:#bc13fe;
+
 }
 
 body {
@@ -42,7 +44,6 @@ p {
     font-size: 2em;
     color: #fff;
     margin: 0;
-    margin-bottom: 2rem;
     text-shadow:
       0 0 4px #fff,
       2px 2px 7px var(--main-pink),
@@ -62,11 +63,17 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 40vh;
+    /* height: 40vh; */
     margin: 3em 0;
 }
 
-#btn-activity {
+#btns {
+  display: flex;
+  flex-direction: column;
+}
+
+#btn-activity,
+#btn-reset {
     font-family: "Yellowtail", sans-serif;
     font-size: 1.5em;
     color: #fff;
@@ -83,7 +90,7 @@ p {
       0 0 150px var(--secondary-blue);
     border: 3px solid #fff;
     background-color: #24283b;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0 0 .2rem #fff,
               0 0 .2rem #fff,
               0 0 2rem var(--secondary-blue),
@@ -91,12 +98,14 @@ p {
               0 0 2.8rem var(--secondary-blue),
               inset 0 0 1.3rem var(--secondary-blue);
     padding: .5em 1em;
-    margin-top: 2em;
+    margin-bottom: 1em;
     transition: box-shadow .3s;
 }
 
 #btn-activity:hover,
-#btn-activity:focus {
+#btn-activity:focus,
+#btn-reset:hover,
+#btn-reset:focus {
     cursor: pointer;
     box-shadow: 0 0 .2rem #fff,
               0 0 .2rem #fff,
@@ -104,16 +113,27 @@ p {
               0 0 1.8rem var(--secondary-blue),
               0 0 2.8rem var(--secondary-blue),
               inset 0 0 1.3rem var(--secondary-blue);
-
 }
 
 #activities-list {
-}
-
-ul {
     padding: 0;
 }
 
 .activity {
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
+    margin-bottom: .5em;
     list-style: none;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        2px 2px 7px #bc13fe,
+        -2px -2px 7px #bc13fe,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #bc13fe,
+        0 0 82px #bc13fe,
+        0 0 92px #bc13fe,
+        0 0 102px #bc13fe,
+        0 0 151px #bc13fe;
 }
